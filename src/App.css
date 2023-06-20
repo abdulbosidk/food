@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://uprostim.com/wp-content/uploads/2021/04/image151-13-scaled.jpg);
+  background-size:cover;
+}
+.s{
+  background-color: bisque;
+}
+.t{
+  border: 2px;
+  border-style: dashed;
+  border-radius: 10px;
+  border-top-color: red;
+  border-left-color: coral;
+  border-right-color: coral;
+  border-bottom-color: red;
+}
+.bor{
+  border: 0px;
+}
+.rr{
+  height: 60px;
+  background-color: rgba(10, 190, 10, 0.199);
+  border: 1px;
+  border-color: rgb(12, 201, 12);
+  border-style: solid;
+}
+.hovers:hover{
+  background-color: black;
+  color: #ccc;
+}
+.door{
+  float: right;
+  width: 200px;
+  height: 30px;
+}
+@media(min-width:768px){
+  .shopping{
+    position: absolute;
+    right: 30px;
+  }
+}
+
